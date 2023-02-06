@@ -1,5 +1,5 @@
 {% set name = "distfit" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/distfit-{{ version }}.tar.gz
-  sha256: c2c91c29657b9defb4a0bb585741a88bf127ed318468df43b822f312a3898e3d
+  sha256: a3d983580f008ed69d231bf44d2c1528b4795ed3f42fc24339bce7347ea2d284
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - colourmap
     - matplotlib-base
     - numpy
     - pandas
