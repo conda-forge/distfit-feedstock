@@ -20,10 +20,11 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - colourmap
-    - matplotlib-base
+    - colourmap >=1.1.10
+    - matplotlib-base >=3.5.2
     - numpy
     - pandas
+    - packaging
     - pypickle
     - python >=3.6
     - scipy
