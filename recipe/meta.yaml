@@ -17,6 +17,7 @@ build:
 
 requirements:
   host:
+    - matplotlib-base >=3.5.2
     - packaging
     - pip
     - python >=3.6
