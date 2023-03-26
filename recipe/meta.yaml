@@ -1,5 +1,5 @@
 {% set name = "distfit" %}
-{% set version = "1.6.9" %}
+{% set version = "1.6.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/distfit-{{ version }}.tar.gz
-  sha256: df41151c93c3077c397afd2cfb7d1c2c0b066d2fb61f3087a2ad54c42d18c13a
+  sha256: e5f18cdc1c3d62adcc440a9bdc898e8624cb33e3bafd4efa6f96667afd86e17e
 
 build:
   number: 0
