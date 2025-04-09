@@ -17,21 +17,20 @@ build:
 
 requirements:
   host:
-    - matplotlib-base >=3.5.2
-    - packaging
     - pip
     - python {{ python_min }}
     - setuptools
+    - wheel
   run:
     - python >={{ python_min }}
-    - packaging
     - matplotlib-base >=3.5.2
     - numpy
     - pandas
     - statsmodels
     - scipy
-    - pypickle
+    - pypickle >=1.1.4
     - colourmap >=1.1.10
+    - packaging
     - joblib
 
 test:
