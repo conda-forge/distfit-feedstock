@@ -1,5 +1,5 @@
 {% set name = "distfit" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/distfit-{{ version }}.tar.gz
-  sha256: 99ad18cdca728b4e02e0c67273bed966bc16fd14c8ea7f7936bba9f6dbdbb615
+  sha256: 51019417aea06b0c95aefe04d39bdc70e0f9dc11c1aa39f9625d934c314a997a
 
 build:
   number: 0
