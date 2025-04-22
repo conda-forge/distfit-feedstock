@@ -10,14 +10,13 @@ Package license: MIT
 Summary: Probability density function fitting and hypothesis testing.
 
 Distfit is a python package for probability density fitting across
- 89 univariate distributions to non-censored data by residual sum of
- squares (RSS), and hypothesis testing. Probability density fitting
- is the fitting of a probability distribution to a series of data
- concerning the repeated measurement of a variable phenomenon.
- Distfit scores each of the 89 different distributions for the fit
- with the empirical distribution and return the best scoring
- distribution.
-
+89 univariate distributions to non-censored data by residual sum of
+squares (RSS), and hypothesis testing. Probability density fitting
+is the fitting of a probability distribution to a series of data
+concerning the repeated measurement of a variable phenomenon.
+Distfit scores each of the 89 different distributions for the fit
+with the empirical distribution and return the best scoring
+distribution.
 
 Current build status
 ====================
