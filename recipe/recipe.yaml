@@ -34,9 +34,7 @@ requirements:
     - colourmap >=1.1.10
     - packaging
     - joblib
-    - tqdm
     - scatterd
-    - seaborn
 
 tests:
   - python:
