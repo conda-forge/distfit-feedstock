@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: distfit
-  version: "2.0.0"
+  version: "2.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/distfit-${{ version }}.tar.gz
-  sha256: 2ccb55266c0f7c491ed4ff7ed8bed959426fa2161f216aee6dd790aeeace2afb
+  sha256: e2bc40d7dbe16bdbd2a8f684bca62bc4f5a3dc9d7653ae4eabeb9194f12a93e9
 
 build:
   number: 0
@@ -34,9 +34,7 @@ requirements:
     - colourmap >=1.1.10
     - packaging
     - joblib
-    - tqdm
     - scatterd
-    - seaborn
 
 tests:
   - python:
