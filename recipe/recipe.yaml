@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: distfit
-  version: "2.0.1"
+  version: "2.0.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/distfit-${{ version }}.tar.gz
-  sha256: e2bc40d7dbe16bdbd2a8f684bca62bc4f5a3dc9d7653ae4eabeb9194f12a93e9
+  sha256: 2a180ead9d03f17616bd205032a0953af32c480be5b137170fd6b6efff25f892
 
 build:
   number: 0
