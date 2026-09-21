@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: distfit
-  version: "2.0.2"
+  version: "2.0.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/distfit-${{ version }}.tar.gz
-  sha256: 2a180ead9d03f17616bd205032a0953af32c480be5b137170fd6b6efff25f892
+  sha256: f273a1d5528087e7e8f3eebb7a235e6691a7d1ab1c025d1c906f7a9c8346344d
 
 build:
   number: 0
@@ -41,7 +41,9 @@ tests:
       imports:
         - distfit
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Probability density function fitting and hypothesis testing.
